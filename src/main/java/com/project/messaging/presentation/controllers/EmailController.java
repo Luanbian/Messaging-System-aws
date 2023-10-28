@@ -2,7 +2,7 @@ package com.project.messaging.presentation.controllers;
 
 import com.project.messaging.application.usecases.EmailSender;
 import com.project.messaging.core.dtos.EmailDto;
-import com.project.messaging.core.usecases.exceptions.EmailSenderException;
+import com.project.messaging.core.exceptions.EmailSenderException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
